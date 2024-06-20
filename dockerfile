@@ -1,4 +1,4 @@
-FROM ym529700260/java8:1.0
+FROM anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/openjdk:8-8.6
 
  
-RUN   ls     
+RUN   java -version  
